@@ -45,8 +45,8 @@
                 <div class="nav-links" id="navLinks">
                     <a href="#home" class="active">Home</a>
                     <a href="#services">Services</a>
-                    <a href="#about">About</a>
-                    <a href="#process">Process</a>
+                    <a href="#why-choose-us">About</a>
+                    <a href="#how-we-work">Process</a>
                     <a href="#testimonials">Testimonials</a>
                     <a href="#contact" class="btn btn-primary">Get Started</a>
                 </div>
@@ -68,7 +68,7 @@
                 <p class="hero-subtitle">We help content creators build engaged audiences, increase subscribers, and maximize their YouTube potential with proven growth strategies.</p>
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary">Get Free Channel Audit</a>
-                    <a href="#how-it-works" class="btn btn-outline">How It Works <i class="fas fa-play-circle"></i></a>
+                    <a href="#how-we-work" class="btn btn-outline">How It Works <i class="fas fa-play-circle"></i></a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat-item">
@@ -275,7 +275,7 @@
                 <div class="modern-split-img-wrap">
                     <!-- User: Replace src below with your Competitor Analysis image -->
                     <img src="assets/images/competitor.png" alt="Competitor Analysis" class="modern-split-img" />
-                </div>
+inkennk                 </div>
             </div>
         </div>
     </section>
@@ -839,6 +839,21 @@
       </div>
     </section>
 
+    <!-- Get Our Service Section -->
+    <section class="get-service-section">
+      <div class="container get-service-container">
+        <div class="get-service-content">
+          <h2 class="get-service-title">Get Our Service</h2>
+          <p class="get-service-intro">Ready to supercharge your YouTube channel? At <b>YouTube Growth Agency</b>, we offer tailored services designed to help you achieve outstanding results. Whether you're just starting out or looking to refine your existing strategies, our expert team is here to guide you every step of the way.</p>
+          <p class="get-service-body">From detailed channel optimization and content strategies to advanced competitor analysis and audience engagement tactics, our services are crafted to provide you with the tools and insights needed for sustainable growth.</p>
+          <div class="get-service-highlight">
+            We’re proud to partner with <a href="https://www.lenostube.com/en" target="_blank" rel="noopener" class="lenostube-link">LenosTube</a>, a leader in YouTube growth solutions. With their cutting-edge technology and expertise, we enhance our services to deliver even better results for your channel. Don’t let your content get lost in the crowd. With our comprehensive approach and LenosTube's advanced tools, every aspect of your YouTube presence will be optimized for success.
+          </div>
+          <p class="get-service-cta">Explore our services and discover how we, along with LenosTube, can help you reach your goals. <b>Contact us today</b> to get started and take your YouTube journey to new heights with the support of our dedicated team. <span class="get-service-make-shine">Let’s make your channel shine!</span></p>
+        </div>
+      </div>
+    </section>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -854,7 +869,7 @@
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#about">About</a></li>
+                        
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -862,20 +877,20 @@
                 <div class="footer-links">
                     <h4>Resources</h4>
                     <ul>
-                        <li><a href="#">YouTube SEO Guide</a></li>
-                        <li><a href="#">Content Strategy</a></li>
-                        <li><a href="#">Channel Audit</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="https://vidiq.com/blog/post/youtube-seo/" target="_blank" rel="noopener">YouTube SEO Guide</a></li>
+                        <li><a href="https://www.steelcroissant.com/blog/crafting-the-ultimate-youtube-content-strategy-for-2025" target="_blank" rel="noopener">Content Strategy</a></li>
+                        <li><a href="https://www.lenostube.com/en/youtube-channel-audit/" target="_blank" rel="noopener">Channel Audit</a></li>
+                        
                     </ul>
                 </div>
                 
                 <div class="footer-social">
                     <h4>Follow Us</h4>
                     <div class="social-links">
-                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/" class="social-icon" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+                        <a href="https://x.com/" class="social-icon" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" class="social-icon" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/" class="social-icon" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -883,8 +898,8 @@
             <div class="footer-bottom">
                 <p>&copy; 2025 YouTube Growth Agency. All rights reserved.</p>
                 <div class="footer-nav">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-of-service.html">Terms of Service</a>
                 </div>
             </div>
         </div>
@@ -893,5 +908,22 @@
     <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+  <script>
+    // Back to Top Button Functionality
+    const backToTopBtn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    });
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
 </body>
 </html>
